@@ -1,0 +1,208 @@
+/* This is for devices with 599 pixel and below */
+@media screen and (max-width: 599px) {
+ .header {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .logo {
+    padding-bottom: 10px;
+  }
+
+  .name {
+    font-size: 38px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .huge {
+    margin-bottom: 20px;
+  }
+
+  .box {
+    padding: 0 16px;
+  }
+
+  .site {
+    padding-bottom: 10px;
+  }
+
+  .site-title {
+    font-size: 22px;
+  }
+
+  .fav {
+    min-height: 380px;
+  }
+
+  .site-link {
+    font-size: 17px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  .site {
+    padding-bottom: 16px;
+  }
+
+  .site-title {
+    font-size: 26px;
+  }
+  
+
+}
+
+
+ /* This is for devices with 600 pixel and above */
+
+
+@media screen and (min-width: 600px){
+
+  .myname {
+    text-align: right;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .box {
+    padding: 0 20px;
+  }
+
+  .site-list {
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .site-title {
+    font-size: 28px;
+  }
+
+  .site {
+    width: calc(50%);
+  }
+
+}
+
+/* This affects devices between 600 pixel and 739pixel */
+
+@media screen and (min-width: 600px) and (max-width: 739px) {
+  .site {
+    padding-bottom: 10px;
+  }
+
+  .site:nth-child(odd) {
+    padding-right: 5px;
+  }
+
+  .site:nth-child(even) {
+    padding-left: 5px;
+  }
+
+  .fav {
+    min-height: 360px;
+  }
+
+}
+
+/* This affects devices between 740 pixel and 869pixel */
+
+@media screen and (min-width: 740px) and (max-width: 869px) {
+  .site {
+    padding-bottom: 16px;
+  }
+
+  .site:nth-child(odd) {
+    padding-right: 8px;
+  }
+
+  .site:nth-child(even) {
+    padding-left: 8px;
+  }
+
+  .fav {
+    height: 400px;
+  }
+
+  .site-description,
+  .site-link {
+    font-size: 18px;
+  }
+
+}
+
+/* This is for devices with 870 pixel and above */
+
+@media screen and (min-width: 870px) {
+  .name {
+    font-size: 44px;
+  }
+
+  .site {
+    width: calc(33.3333% - 10px);
+  }
+
+  .site-title {
+    font-size: 32px;
+  }
+
+}
+
+
+/* This is for big devices above 1100 pixel  */
+
+@media screen and (min-width: 1100px) {
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+  }
+
+  .header {
+    padding: 20px;
+  }
+
+  .name {
+    font-size: 50px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .box {
+    width: 1100px;
+    padding: 0;
+  }
+
+  .site {
+    width: calc(33.3333% - 16px);
+  }
+
+  .site-title {
+    font-size: 36px;
+  }
+
+  .fav {
+    height: 400px;
+  }
+
+  .site-name {
+    font-size: 25px;
+  }
+
+  .site-description,
+  .site-link {
+    font-size: 16px;
+  }
+
+}
