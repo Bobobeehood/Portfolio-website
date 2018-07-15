@@ -40,6 +40,10 @@
   .site-link {
     font-size: 17px;
   }
+   .site-list {
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
 
 }
 
@@ -115,31 +119,7 @@
 
 }
 
-/* This affects devices between 740 pixel and 869pixel */
 
-@media screen and (min-width: 740px) and (max-width: 869px) {
-  .site {
-    padding-bottom: 16px;
-  }
-
-  .site:nth-child(odd) {
-    padding-right: 8px;
-  }
-
-  .site:nth-child(even) {
-    padding-left: 8px;
-  }
-
-  .fav {
-    height: 400px;
-  }
-
-  .site-description,
-  .site-link {
-    font-size: 18px;
-  }
-
-}
 
 /* This is for devices with 870 pixel and above */
 
