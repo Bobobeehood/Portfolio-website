@@ -45,6 +45,10 @@ p {
     
 }
 
+.logo img{
+	border-radius: 50%;
+}
+
 .myname {
 	text-transform: uppercase;
 }
